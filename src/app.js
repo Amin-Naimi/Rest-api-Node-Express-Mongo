@@ -33,7 +33,7 @@ mongoose.connect('mongodb://0.0.0.0:27017/firstproject', {
     );
 
 
-// Schéma et modèle MongoDB pour les livres
+// Schéma et modèle MongoDB pour les laptops
 
 const laptopSchema = new mongoose.Schema({
     laptopName: { type: String, required: true },
